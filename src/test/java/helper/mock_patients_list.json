@@ -1,0 +1,889 @@
+  [
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594843",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "594843",
+        "meta": {
+          "versionId": "7",
+          "lastUpdated": "2024-04-10T18:04:49.673+00:00",
+          "source": "#oMuBbnIcxrVMSplv"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Nilesh \n            <b>KERIWALA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>123456</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://acme.org/fhir/identifier/mrn",
+            "value": "123456"
+          }
+        ],
+        "name": [
+          {
+            "family": "Davidzo",
+            "given": [
+              "Nilesh"
+            ]
+          },
+          {
+            "use": "official",
+            "family": "Smith",
+            "given": [
+              "Michelle"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555.555.5555",
+            "use": "home"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1980-01-01"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596724",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596724",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T21:39:38.815+00:00",
+          "source": "#yJ88NY0e0XZ00Gdb"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>Bangalore </span><span>Karnataka </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1980</span></td></tr></tbody></table></div>"
+        },
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-12-25",
+        "address": [
+          {
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "postalCode": "110086",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596725",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596725",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T21:43:21.636+00:00",
+          "source": "#8AqQGGmx2nBcGlsk"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>wtang81</td></tr><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>Bangalore </span><span>Karnataka </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "wtang81"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-12-25",
+        "address": [
+          {
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "postalCode": "110086",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596726",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596726",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T21:45:21.793+00:00",
+          "source": "#yiN9QTe5UXcXizTl"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>Bangalore </span><span>Karnataka </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1980</span></td></tr></tbody></table></div>"
+        },
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-12-25",
+        "address": [
+          {
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "postalCode": "110086",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596732",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596732",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T22:39:41.324+00:00",
+          "source": "#AdEWkO22jI0CjcSR"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>wtang81</td></tr><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>Bangalore </span><span>Karnataka </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "wtang81"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-12-25",
+        "address": [
+          {
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "postalCode": "110086",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596733",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596733",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T22:40:13.993+00:00",
+          "source": "#IdR87ZfrTrAKePrk"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>wtang81</td></tr><tr><td>Address</td><td><span>534 Erewhon St </span><br/><span>Bangalore </span><span>Karnataka </span><span>India </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "value": "wtang81"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-12-25",
+        "address": [
+          {
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "postalCode": "110086",
+            "country": "India"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596736",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596736",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-02T23:46:05.250+00:00",
+          "source": "#aBSSKPdYAV7IUiYU"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596737",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596737",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-03T00:03:03.606+00:00",
+          "source": "#mVtkRom4ty0HFg0A"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/596764",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "596764",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-02-03T04:19:06.851+00:00",
+          "source": "#RTe4PjLZrXBwqtKt"
+        },
+        "text": {
+          "status": "generated"
+        },
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "1(555)987-6543",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1999-01-01",
+        "address": [
+          {
+            "line": [
+              "888 Washington St"
+            ],
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "12345",
+            "country": "USA"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/597226",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "597226",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-03T20:17:55.288+00:00",
+          "source": "DEMO#KdlafQgKszPsa4ID"
+        },
+        "text": {
+          "status": "generated"
+        },
+        "identifier": [
+          {
+            "system": "EPI",
+            "value": "A5AA62092156BC4A"
+          },
+          {
+            "system": "PFTEST15_MRN",
+            "value": "A5AA62092156BC4ASmith"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Sean Smith",
+            "family": "Smith",
+            "given": [
+              "Sean"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "012-315-7012",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1937-03-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "text": "9575 Forest Run Center, FORT LAUDERDALE, FL, 33338",
+            "line": [
+              "9575 Forest Run Center",
+              "FORT LAUDERDALE"
+            ],
+            "city": "FORT LAUDERDALE",
+            "state": "FL",
+            "postalCode": "33338",
+            "country": "US"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/618626",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "618626",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-07T23:10:55.136+00:00",
+          "source": "DEMO#dpejXbKcg97YVRbu"
+        },
+        "text": {
+          "status": "generated"
+        },
+        "identifier": [
+          {
+            "system": "EPI",
+            "value": "7DC5070D1D09AD25"
+          },
+          {
+            "system": "PFTEST01_MRN",
+            "value": "7DC5070D1D09AD25Smith"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Julia Smith",
+            "family": "Smith",
+            "given": [
+              "Julia"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "000-595--9595",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1930-05-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "text": "58882 Oriole Circle, FORT LAUDERDALE, FL, 33346",
+            "line": [
+              "58882 Oriole Circle",
+              "FORT LAUDERDALE"
+            ],
+            "city": "FORT LAUDERDALE",
+            "state": "FL",
+            "postalCode": "33346",
+            "country": "US"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/620442",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "620442",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-02-17T22:43:08.880+00:00",
+          "source": "#BWO0L1hJ8jkytXdu"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Tracy <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>620442</td></tr><tr><td>Address</td><td><span>36 Miller Lane </span><br/><span>LA </span><span>CA </span></td></tr><tr><td>Date of birth</td><td><span>14 March 1948</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "value": "620442"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Smith",
+            "given": [
+              "Tracy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1948-03-14T00:00:00",
+        "address": [
+          {
+            "line": [
+              "36 Miller Lane"
+            ],
+            "city": "LA",
+            "state": "CA",
+            "postalCode": "6772"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "text": "Parent"
+              }
+            ],
+            "name": {
+              "family": "WHITE",
+              "given": [
+                "John"
+              ]
+            },
+            "period": {
+              "start": "1948-03-14T00:00:00"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "preferred": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625276",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625276",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-21T09:55:24.296+00:00",
+          "source": "#IkoxbrC6v2we9HZg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625281",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625281",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-21T11:19:33.313+00:00",
+          "source": "#drUAD8qM6uRjl0Wl"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625282",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625282",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-21T11:19:51.819+00:00",
+          "source": "#XN1TwesDQnVQXD0y"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625285",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625285",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-21T11:22:50.303+00:00",
+          "source": "#sXjmjZueEbCk8rij"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625286",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625286",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-21T11:23:08.990+00:00",
+          "source": "#vTFvOf2EOmZtRjVW"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625566",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625566",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-24T11:10:59.589+00:00",
+          "source": "#weI608yP0a9ov9y2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625610",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625610",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-02-24T14:25:20.137+00:00",
+          "source": "#6nz6kPN60SCEVq1Y"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <div class=\"hapiHeaderText\">Michael \n            <b>SMITH</b> \n         </div> \n         <table class=\"hapiPropertyTable\"> \n            <tbody> \n               <tr> \n                  <td>Identifier</td> \n                  <td>NCC-1032-b</td> \n               </tr> \n               <tr> \n                  <td>Address</td> \n                  <td> \n                     <span>Milchstraße 42 </span> \n                     <br/> \n                     <span>Spöck </span> \n                     <span>Dutschland </span> \n                  </td> \n               </tr> \n               <tr> \n                  <td>Date of birth</td> \n                  <td> \n                     <span>24 October 2226</span> \n                  </td> \n               </tr> \n            </tbody> \n         </table> \n      </div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "http://starfleet-hospital/bliblablub",
+            "value": "NCC-1032-b"
+          },
+          {
+            "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+            "value": "1212121212"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Michael Smith",
+            "family": "Smith",
+            "given": [
+              "Michael"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+49(0)12345-123456"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2226-10-24",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "http://fhir.ufp/StructureDefinition/planet",
+                "valueString": "Earth"
+              }
+            ],
+            "text": "Milchstraße 42  76297 Spöck  Deutschland  Planet Erde",
+            "line": [
+              "Milchstraße 42"
+            ],
+            "city": "Spöck",
+            "postalCode": "76297",
+            "country": "Dutschland"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://hapi.fhir.org/baseR4/Patient/625614",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "625614",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-02-24T15:07:37.042+00:00",
+          "source": "#M1r3Mn8Gn2UFZXNE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:system",
+            "value": "12345"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
